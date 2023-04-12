@@ -1,7 +1,9 @@
 package sam.springbootproject.springbootproject.controllers;
 
+import org.springframework.stereotype.Controller;
 import sam.springbootproject.springbootproject.services.GreetingService;
 
+@Controller
 public class ConstructorInjectedController {
     private final GreetingService greetingService;
 
